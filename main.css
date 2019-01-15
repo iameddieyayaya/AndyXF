@@ -1,3 +1,9 @@
+.andyXFlogo{
+  text-align: center;
+}
+
+
+
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
@@ -26,25 +32,28 @@
 }
 
 .socialMedia{
+  text-align: center;
   position: relative;
-  bottom: 50px;
-  left: 75%;
+  bottom: 10px;
   margin: 0;
   padding: 0;
 }
 
+.photoGrid{
+  /* text-align: center; */
+  margin: 0 auto;
+}
 /* creates a big container */
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 10px;
-   border: 1px solid red;
 }
 
 /* create four equal columns that sit next to each other */
 .column {
   flex: 25%;
-  max-width: 25%;
+  max-width: 50%;
   padding: 0 4px;
 }
 
@@ -68,16 +77,9 @@
     max-width: 100%;
   }
 }
-@media screen and (max-width: 800px) {
-  .socialMedia {
-    left: 70%;
 
-  }
-}
-@media screen and (max-width: 600px) {
-  .socialMedia {
-    max-width: 100%;
-    left: 50%;
-
-  }
+footer{
+  padding: 5px;
+  text-align: center;
+  display: block;
 }
